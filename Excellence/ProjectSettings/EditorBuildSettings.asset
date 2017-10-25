@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene.unity
+    guid: 3ad4f6621f47e11498bf646e4bf0f6d1
+  - enabled: 1
+    path: Assets/Challenge.unity
+    guid: 3cc403d18ce7a7246b25d1c8dd6f05c9
+  - enabled: 1
+    path: Assets/Vectors.unity
+    guid: 7824a92952d4a754b82b973d70edbf3d
