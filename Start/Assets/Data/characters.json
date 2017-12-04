@@ -1,0 +1,68 @@
+{
+    "characters": [
+        {
+            "type": "warrior",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 34,
+            "strength": 20,
+            "actionPoints": 6,
+            "actions": [
+                {
+                    "name": "melee",
+                    "tier": 1
+                }
+            ],
+            "gold": 10
+        },
+        {
+            "type": "cleric",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 37,
+            "strength": 10,
+            "actionPoints": 5,
+            "actions": [
+                {
+                    "name": "melee",
+                    "tier": 1
+                },
+                {
+                    "name": "heal",
+                    "tier": 0
+                }
+            ],
+            "gold": 20
+        },
+        {
+            "type": "ranger",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 38,
+            "strength": 10,
+            "actionPoints": 5,
+            "actions": [
+                {
+                    "name": "melee",
+                    "tier": 1
+                }
+            ],
+            "gold": 30
+        },
+        {
+            "type": "mage",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 40,
+            "strength": 5,
+            "actionPoints": 5,
+            "actions": [
+                {
+                    "name": "melee",
+                    "tier": 1
+                }
+            ],
+            "gold": 50
+        }
+    ]
+}

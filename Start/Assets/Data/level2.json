@@ -1,0 +1,134 @@
+﻿{
+    "width": 15,
+    "height": 15,
+    "timeScale": 1,
+    "beat": "polka",
+    "features": [
+        {
+            "row": 5,
+            "col": 5,
+            "type": "light",
+            "passable": true
+        },
+        {
+            "row": 10,
+            "col": 12,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 11,
+            "col": 13,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 8,
+            "col": 10,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 7,
+            "col": 9,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 6,
+            "col": 8,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 5,
+            "col": 7,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 4,
+            "col": 6,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 3,
+            "col": 5,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 2,
+            "col": 4,
+            "type": "rock",
+            "passable": false
+        }
+    ],
+    "entities": [
+        {
+            "row": 8,
+            "col": 2,
+            "type": "health",
+            "passable": true
+        },
+        {
+            "row": 1,
+            "col": 3,
+            "type": "coin",
+            "passable": true
+        }
+    ],
+    "startingPositions": [
+        {
+            "row": 8,
+            "col": 7
+        },
+        {
+            "row": 8,
+            "col": 6
+        },
+        {
+            "row": 7,
+            "col": 7
+        },
+        {
+            "row": 7,
+            "col": 6
+        }
+    ],
+    "enemies": [
+        {
+            "row": 2,
+            "col": 12,
+            "type": "melee",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 50,
+            "strength": 20,
+            "actionPoints": 4,
+            "actions": [ 
+                {
+                    "name": "melee",
+                    "tier":  1
+                }
+            ]
+        },
+        {
+            "row": 12,
+            "col": 2,
+            "type": "melee",
+            "passable": false,
+            "maxHealth": 50,
+            "speed": 45,
+            "strength": 50,
+            "actionPoints": 3,
+            "actions": [ 
+                {
+                    "name": "melee",
+                    "tier":  1
+                }
+            ]
+        }
+    ]
+}

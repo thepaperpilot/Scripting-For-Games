@@ -1,0 +1,70 @@
+{
+    "width": 15,
+    "height": 15,
+    "timeScale": 1,
+    "beat": "polka",
+    "features": [
+        {
+            "row": 5,
+            "col": 5,
+            "type": "light",
+            "passable": true
+        },
+        {
+            "row": 8,
+            "col": 2,
+            "type": "rock",
+            "passable": false
+        }
+    ],
+    "entities": [
+        {
+            "row": 6,
+            "col": 8,
+            "type": "health",
+            "passable": true
+        },
+        {
+            "row": 2,
+            "col": 13,
+            "type": "coin",
+            "passable": true
+        }
+    ],
+    "startingPositions": [
+        {
+            "row": 8,
+            "col": 7
+        },
+        {
+            "row": 8,
+            "col": 6
+        },
+        {
+            "row": 7,
+            "col": 7
+        },
+        {
+            "row": 7,
+            "col": 6
+        }
+    ],
+    "enemies": [
+        {
+            "row": 2,
+            "col": 12,
+            "type": "melee",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 50,
+            "strength": 20,
+            "actionPoints": 4,
+            "actions": [ 
+                {
+                    "name": "melee",
+                    "tier":  1
+                }
+            ]
+        }
+    ]
+}

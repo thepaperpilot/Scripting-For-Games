@@ -1,0 +1,206 @@
+{
+    "width": 7,
+    "height": 7,
+    "timeScale": 1,
+    "beat": "polka",
+    "features": [
+        {
+            "row": 1,
+            "col": 0,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 1,
+            "col": 1,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 1,
+            "col": 2,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 1,
+            "col": 3,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 1,
+            "col": 4,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 1,
+            "col": 5,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 5,
+            "col": 6,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 5,
+            "col": 1,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 5,
+            "col": 2,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 5,
+            "col": 3,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 5,
+            "col": 4,
+            "type": "rock",
+            "passable": false
+        },
+        {
+            "row": 5,
+            "col": 5,
+            "type": "rock",
+            "passable": false
+        }
+    ],
+    "entities": [
+        {
+            "row": 0,
+            "col": 1,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 0,
+            "col": 2,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 0,
+            "col": 3,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 0,
+            "col": 4,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 0,
+            "col": 5,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 0,
+            "col": 6,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 6,
+            "col": 1,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 6,
+            "col": 2,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 6,
+            "col": 3,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 6,
+            "col": 4,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 6,
+            "col": 5,
+            "type": "coin",
+            "passable": true
+        },
+        {
+            "row": 6,
+            "col": 0,
+            "type": "coin",
+            "passable": true
+        }
+    ],
+    "startingPositions": [
+        {
+            "row": 8,
+            "col": 7
+        },
+        {
+            "row": 8,
+            "col": 6
+        },
+        {
+            "row": 7,
+            "col": 7
+        },
+        {
+            "row": 7,
+            "col": 6
+        }
+    ],
+    "enemies": [
+        {
+            "row": 0,
+            "col": 0,
+            "type": "melee",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 50,
+            "strength": 25,
+            "actionPoints": 5,
+            "actions": [ 
+                {
+                    "name": "melee",
+                    "tier":  2
+                }
+            ]
+        },
+        {
+            "row": 6,
+            "col": 6,
+            "type": "melee",
+            "passable": false,
+            "maxHealth": 100,
+            "speed": 25,
+            "strength": 25,
+            "actionPoints": 5,
+            "actions": [ 
+                {
+                    "name": "melee",
+                    "tier":  2
+                }
+            ]
+        }
+    ]
+}
